@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activity.cs" />
+    <Compile Include="IEqualityComparer.cs" />
+    <Compile Include="PersonComparer.cs" />
     <Compile Include="Parameter.cs" />
     <Compile Include="Pupil.cs" />
     <Compile Include="Person.cs" />

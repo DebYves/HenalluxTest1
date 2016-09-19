@@ -18,7 +18,7 @@ namespace ConsoleApplicationLabo1
             }
         }
 
-        enum Notes
+        public enum Notes
         {
             R='R',S='S',T='T'
         };

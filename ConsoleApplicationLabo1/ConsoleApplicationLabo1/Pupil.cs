@@ -61,7 +61,7 @@ namespace ConsoleApplicationLabo1
             }
             return ch;
         }
-        public void AddEvaluation(String title = null, char evaluation = 'S')
+        public void AddEvaluation(String title = null, char evaluation = (char)Parameter.Notes.S)//char evaluation = 'S')
         {
             for(int i = 0; i < ListActivities.Count(); i++)
             {
