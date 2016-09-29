@@ -14,7 +14,7 @@ namespace ConsoleApplicationLabo1
         }
         public int GetHashCode(Person p1)
         {
-            return p1.GetHashCode();
+            return p1.Name.GetHashCode()^p1.Age;
         }
     }
 }

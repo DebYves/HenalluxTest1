@@ -84,7 +84,9 @@ namespace ConsoleApplicationLabo1
                 new Pupil("Eser", 6, 1)
             };
 
-            IEnumerable<Pupil> listPupilsNoDuplicated = listPupilDup.Distinct<Pupil>(new PersonComparer());
+            IEnumerable<Pupil> listPupilsNoDuplicated =listPupilDup.Distinct(new PersonComparer()).Cast<Pupil>();
+                
+                //.Distinct(new PersonComparer());
             Console.WriteLine(listPupilsNoDuplicated.Count());
 
             Console.ReadKey();
