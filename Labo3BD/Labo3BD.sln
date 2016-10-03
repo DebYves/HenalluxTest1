@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labo3BD", "Labo3BD\Labo3BD.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{62B18FFB-539A-4BF6-A9A4-34F7BA1E0958}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFClient", "WPFClient\WPFClient.csproj", "{8A3822D2-71BB-488C-BBFA-C9C75E77F668}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{62B18FFB-539A-4BF6-A9A4-34F7BA1E0958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62B18FFB-539A-4BF6-A9A4-34F7BA1E0958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62B18FFB-539A-4BF6-A9A4-34F7BA1E0958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A3822D2-71BB-488C-BBFA-C9C75E77F668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3822D2-71BB-488C-BBFA-C9C75E77F668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3822D2-71BB-488C-BBFA-C9C75E77F668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3822D2-71BB-488C-BBFA-C9C75E77F668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
