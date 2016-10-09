@@ -15,8 +15,8 @@ namespace AppLabo4.Model
             return Students = new List<Student>
             {
                 new Student("Student 1", 20),
-                new Student("Student 2", 20),
-                new Student("Student 3", 20)
+                new Student("Student 2", 16),
+                new Student("Student 3", 11)
             };
         }
     }
