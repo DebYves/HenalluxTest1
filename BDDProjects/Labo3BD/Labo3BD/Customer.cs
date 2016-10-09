@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -20,5 +21,9 @@ namespace Labo3BD
         public String PostCode { get; set; }
         public String Remark { get; set; }
 
+        
+        [Timestamp]
+        public byte[] RowVersion { get; set; }
+        
     }
 }
