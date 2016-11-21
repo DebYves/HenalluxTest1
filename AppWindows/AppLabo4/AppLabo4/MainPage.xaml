@@ -17,6 +17,8 @@
                   ItemsSource="{Binding Students,Mode=TwoWay}"
                   SelectedItem="{Binding SelectedStudent,Mode=TwoWay}"
                   Margin="0,35.167,0,-35"></ListView>
+        
+        <!-- utiliser les data template cours Controls pour mieux afficher la liste -->
 
         <Grid x:Name="CommandBarCource" Grid.Row="2">
             <Grid.ColumnDefinitions>

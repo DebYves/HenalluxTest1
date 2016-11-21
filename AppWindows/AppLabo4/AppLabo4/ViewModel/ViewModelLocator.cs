@@ -17,10 +17,10 @@ namespace AppLabo4.ViewModel
             SimpleIoc.Default.Register<MainViewModel>();
             SimpleIoc.Default.Register<SecondViewModel>();
             
-        NavigationService navigationPages = new NavigationService();
-        SimpleIoc.Default.Register<INavigationService>(() => navigationPages);
-        navigationPages.Configure("MainPage", typeof(MainPage));
-        navigationPages.Configure("SecondPage", typeof(SecondPage));
+            NavigationService navigationPages = new NavigationService();
+            SimpleIoc.Default.Register<INavigationService>(() => navigationPages);
+            navigationPages.Configure("MainPage", typeof(MainPage));
+            navigationPages.Configure("SecondPage", typeof(SecondPage));
         }
 
         public MainViewModel Main

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.henallux.androidlabo3.MainActivity">
+    <item
+        android:id="@+id/itemEmailID"
+        android:icon="@drawable/ic_action_email"
+        android:title="@string/emailTitleID"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/itemCallID"
+        android:icon="@drawable/ic_action_call"
+        android:title="@string/callTitleID"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/itemSearchID"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/searchTitleID"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+</menu>
